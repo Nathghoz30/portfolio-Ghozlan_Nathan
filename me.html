@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio: Ghozlan Nathan</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="icon" href="assets/logo-window.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,12 +12,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-
-    <!-- Include EmailJS library -->
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-        emailjs.init("70bkJEefINGonHKlX"); // Remplacez YOUR_USER_ID par votre identifiant EmailJS
-    </script>
 </head>
 
 <body>
@@ -47,34 +41,44 @@
             </div>
         </div>
     </nav>
+    <br>
 
-    <div class="card myCard">
-        <div class="card-body">
-            <h1>Contactez-moi !</h1>
-            <form id="contactForm" class="form">
-                <label for="nom">Nom :</label>
-                <input class="input" type="text" id="nom" name="nom" required><br><br>
+    <div class="container text-center">
+        <h3>Qui suis-je ?</h3>
+        <br>
+        <p style="text-align: justify;">
+            Je m'appelle Nathan Ghozlan, et je suis un développeur web passionné de 22 ans. Récemment diplômé d'une
+            deuxième année de master en tant qu'expert des systèmes d'informations, je suis prêt à apporter ma
+            contribution au monde numérique.
+            <br><br>
+            Mon parcours académique m'a permis d'acquérir une solide expertise dans la conception, le développement et
+            la
+            gestion de systèmes d'informations complexes. J'ai une passion pour la création de sites web innovants et
+            fonctionnels qui répondent aux besoins de mes clients.
+            <br><br>
+            Mon objectif est de combiner ma passion pour la technologie avec mes compétences en développement pour créer
+            des solutions numériques exceptionnelles. J'aime relever les défis techniques, explorer de nouvelles
+            technologies et améliorer constamment mes compétences pour rester à la pointe de l'industrie.
+            <br><br>
+            Explorez mon portfolio pour découvrir certains de mes projets récents et en apprendre davantage sur mon
+            travail. Si vous cherchez un développeur web dynamique et dévoué pour votre prochain projet, n'hésitez pas à
+            me contacter. Je serais ravi de discuter de la façon dont je peux vous aider à réaliser votre vision
+            numérique.
+            <br><br>
+            Merci de visiter mon portfolio, et n'hésitez pas à me contacter pour toute question ou opportunité de
+            collaboration.
+        </p>
 
-                <label for="email">E-mail :</label>
-                <input class="input" type="email" id="email" name="email" required><br><br>
-
-                <label for="message">Message :</label><br>
-                <textarea class="input" id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
-                <input type="submit" class="btn btn-success" value="Envoyer">
-            </form>
-        </div>
     </div>
-    <br><br>
 
     <footer style="background-color: rgb(246, 246, 246);">
         <br>
-        <h3 style="margin-left: 20%;">Mes réseaux</h3>
+        <h3 style="margin-left: 10%;">Mes réseaux</h3>
         <p></p>
         <div class="container text-center">
             <div class="row align-items-start">
                 <div class="col">
-                    <a class="icon-link" href="https://fr.linkedin.com/in/nathan-ghozlan-2b53aa222">
+                    <a class="icon-link" href="https://fr.linkedin.com/in/nathan-ghozlan-1b53aa222">
                         <img src="assets/linkedin-removebg-preview.png" alt="Linkedin" width="40px">
                         Linkedin
                     </a>
@@ -95,7 +99,7 @@
         </div>
 
         <br><br>
-        <h3 style="margin-left: 20%;">Informations Générales</h3>
+        <h3 style="margin-left: 10%;">Informations Générales</h3>
         <p></p>
         <div class="container text-center">
             <div class="row align-items-start">
@@ -131,35 +135,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        document.getElementById("contactForm").addEventListener("submit", function (event) {
-            event.preventDefault();
-
-            // Récupérer les données du formulaire
-            var nom = document.getElementById("nom").value;
-            var email = document.getElementById("email").value;
-            var message = document.getElementById("message").value;
-
-            // Envoyer l'e-mail en utilisant le modèle EmailJS
-            emailjs.send("service_x0vcx69", "template_z92q4g3", {
-                nom: nom,
-                email: email,
-                message: message
-            })
-                .then(function (response) {
-                    console.log("E-mail envoyé avec succès", response);
-                    alert("Votre message a été envoyé avec succès !");
-                    document.getElementById("contactForm").reset(); // Réinitialiser le formulaire
-                })
-                .catch(function (error) {
-                    console.error("Erreur lors de l'envoi de l'e-mail", error);
-                    alert("Une erreur s'est produite lors de l'envoi du message. Veuillez réessayer plus tard.");
-                });
-        });
-    </script>
-
-
 </body>
 
 </html>
