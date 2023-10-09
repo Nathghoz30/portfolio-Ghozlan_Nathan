@@ -1,0 +1,32 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg77108" viewBox="0 0 1024 768" height="768px" width="1024px" version="1.1">
+    <metadata id="metadata77114">
+      <rdf:rdf>
+        <cc:work rdf:about="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        </cc:work>
+      </rdf:rdf>
+    </metadata>
+    <defs id="defs77112"></defs>
+    <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-b737fd9d-cf84-46a6-926c-432fe697b7f4">
+      <stop id="stop77089" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+      <stop id="stop77091" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-b737fd9d-cf84-46a6-926c-432fe697b7f4">
+      <stop id="stop77094" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+      <stop id="stop77096" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+      <stop id="stop77098" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+    </linearGradient>
+    <g id="logo-group">
+      <image xlink:href="" id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)"></image>
+      <g id="logo-center" transform="translate(0 0)">
+        <image xlink:href="" id="icon_container" style="display: none;" x="0" y="0"></image>
+        <g id="slogan" style="font-style:oblique;font-weight:300;font-size:32px;line-height:1;font-family:'Fira Sans Condensed';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+        <g id="title" style="font-style:normal;font-weight:700;font-size:72px;line-height:1;font-family:'Comfortaa Bold Alt2';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)">
+          <path id="path77117" style="font-style:normal;font-weight:700;font-size:72px;line-height:1;font-family:'Comfortaa Bold Alt2';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 504.01306,-55.152 c -0.72,0.72 -1.08,1.584 -1.08,2.664 v 39.384 l -31.392,-41.76 c -0.36,-0.36 -0.792,-0.648 -1.296,-0.936 -0.576,-0.288 -1.08,-0.432 -1.584,-0.432 -1.08,0 -1.944,0.36 -2.664,1.08 -0.72,0.72 -1.008,1.584 -1.008,2.664 v 48.744 c 0,1.152 0.288,2.016 1.008,2.736 0.72,0.72 1.584,1.008 2.664,1.008 1.08,0 1.944,-0.36 2.664,-1.08 0.72,-0.72 1.08,-1.584 1.08,-2.664 v -39.312 l 31.392,41.76 c 0.288,0.432 0.648,0.792 1.224,1.008 0.576,0.216 1.08,0.288 1.656,0.288 1.008,0 1.872,-0.288 2.592,-1.008 0.72,-0.72 1.08,-1.584 1.08,-2.736 v -48.744 c 0,-1.08 -0.36,-1.944 -1.08,-2.664 -0.72,-0.72 -1.584,-1.08 -2.592,-1.08 -1.08,0 -1.944,0.36 -2.664,1.08 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#4951dd" stroke="#4951dd" transform="translate(0 336.952) translate(360.73155500000007 -62.464) scale(3) translate(-464.98906 56.232)"></path>
+          <path id="path77119" style="font-style:normal;font-weight:700;font-size:72px;line-height:1;font-family:'Comfortaa Bold Alt2';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 561.83469,-19.728 c 0,-5.544 -2.016,-10.224 -5.904,-14.184 -3.96,-3.888 -8.64,-5.904 -14.184,-5.904 -5.544,0 -10.224,2.016 -14.184,5.904 -3.888,3.96 -5.832,8.64 -5.832,14.184 0,5.544 1.944,10.224 5.832,14.184 3.96,3.888 8.64,5.832 14.184,5.832 4.968,0 9.288,-1.584 13.104,-4.824 v 1.368 c 0,3.6 -1.296,6.696 -3.816,9.216 -2.592,2.592 -5.688,3.816 -9.288,3.816 -2.232,0 -4.32,-0.504 -6.264,-1.584 -1.944,-1.008 -3.528,-2.52 -4.68,-4.392 -0.576,-0.792 -1.296,-1.296 -2.232,-1.44 -0.936,-0.216 -1.8,-0.072 -2.592,0.432 -0.792,0.504 -1.296,1.224 -1.512,2.16 -0.216,0.936 0,1.8 0.504,2.592 1.224,1.944 2.736,3.6 4.464,4.968 1.728,1.368 3.672,2.376 5.76,3.096 2.088,0.72 4.32,1.08 6.552,1.08 5.544,0 10.224,-1.944 14.112,-5.832 3.888,-3.888 5.904,-8.568 5.904,-14.112 V -18 c 0,-0.576 0.072,-1.152 0.072,-1.728 z m -20.088,12.96 c -3.6,0 -6.624,-1.224 -9.144,-3.816 -2.592,-2.52 -3.816,-5.544 -3.816,-9.144 0,-3.6 1.224,-6.624 3.816,-9.216 2.52,-2.52 5.544,-3.816 9.144,-3.816 3.6,0 6.624,1.296 9.216,3.816 2.52,2.592 3.816,5.616 3.816,9.216 0,3.6 -1.296,6.624 -3.816,9.144 -2.592,2.592 -5.616,3.816 -9.216,3.816 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#4a8fdf" stroke="#4a8fdf" transform="translate(0 336.952) translate(542.956445 -13.216000000000008) scale(3) translate(-521.73069 39.816)"></path>
+        </g>
+        <image xlink:href="" id="icon" style="display: none;" x="0" y="0"></image>
+      </g>
+    </g>
+  </svg>
