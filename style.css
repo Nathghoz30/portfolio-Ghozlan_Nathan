@@ -4,6 +4,12 @@
     margin-left: 25%;
 }
 
+.col > .card {
+    width: 280px;
+    height: 400px;
+}
+
+
 .input {
     background-color: #ffffff;
     border: 1px solid #8c8c8c;
