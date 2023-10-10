@@ -4,7 +4,6 @@
     margin-left: 25%;
 }
 
-
 .input {
     background-color: #ffffff;
     border: 1px solid #8c8c8c;
@@ -27,3 +26,9 @@
 .list-group-numbered > .list-group-item {
     border: none;
 }
+
+@media (max-height: 300px) {
+    .body {
+        min-height: 100%;
+    }
+  }
