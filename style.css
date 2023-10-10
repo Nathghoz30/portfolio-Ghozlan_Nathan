@@ -23,3 +23,7 @@
 .btn {
     width: 100%;
 }
+
+.list-group-numbered > .list-group-item {
+    border: none;
+}
