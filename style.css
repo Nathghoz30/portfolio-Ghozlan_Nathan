@@ -4,8 +4,7 @@
     margin-left: 25%;
 }
 
-.col > .card {
-    width: 280px;
+.col>.card {
     height: 400px;
 }
 
@@ -29,12 +28,37 @@
     width: 100%;
 }
 
-.list-group-numbered > .list-group-item {
+.list-group-numbered>.list-group-item {
     border: none;
 }
 
-@media (max-height: 300px) {
-    .body {
-        min-height: 100%;
+.header-card {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    /* En dessous de 800px*/
+
+    body {
+        position: absolute;
+        width: 100%;
+        height: 100%;
     }
-  }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .col>.card {
+        height: 500px;
+        margin-bottom: 15px;
+    }
+
+    .card > .card-body > div > .row > .col > p {
+        font-size: 11px !important;
+    }
+}
