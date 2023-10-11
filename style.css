@@ -37,7 +37,7 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 870px) {
     /* En dessous de 800px*/
 
     body {
