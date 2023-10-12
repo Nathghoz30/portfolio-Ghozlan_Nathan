@@ -37,6 +37,18 @@
     justify-content: center;
 }
 
+.carousel-item {
+    display: flex !important;
+    justify-content: center;
+}
+.carousel-item > img {
+    width: 800px !important;
+    height: 350px !important;
+    margin-bottom: 250px !important;
+    border: 2px solid;
+}
+
+
 @media only screen and (max-width: 870px) {
     /* En dessous de 800px*/
 
@@ -61,4 +73,13 @@
     .card > .card-body > div > .row > .col > p {
         font-size: 11px !important;
     }
+
+    .carousel-item > img {
+        width: 400px !important;
+        height: 200px !important;
+        margin-bottom: 450px !important;
+    }
+
+
+
 }
