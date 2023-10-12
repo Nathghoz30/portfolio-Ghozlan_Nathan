@@ -49,6 +49,7 @@
 }
 
 
+
 @media only screen and (max-width: 870px) {
     /* En dessous de 800px*/
 
@@ -80,6 +81,9 @@
         margin-bottom: 450px !important;
     }
 
+    table {
+        width: auto !important;
+    }
 
 
 }
