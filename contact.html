@@ -56,14 +56,23 @@
         <div class="card-body">
             <h1>Contactez-moi !</h1>
             <form id="contactForm" class="form">
-                <label for="nom">Nom :</label>
-                <input class="input" type="text" id="nom" name="nom" required><br><br>
 
-                <label for="email">E-mail :</label>
-                <input class="input" type="email" id="email" name="email" required><br><br>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nom" placeholder="name" required>
+                    <label for="floatingInput">Nom <span style="color: red;">*</span></label>
+                </div>
+                <br>
 
-                <label for="message">Message :</label><br>
-                <textarea class="input" id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                    <label for="floatingInput">E-Mail <span style="color: red;">*</span></label>
+                </div><br>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" placeholder="name@example.com" name="message"
+                        required></textarea><br>
+                    <label for="floatingInput">Message <span style="color: red;">*</span> </label>
+                </div><br>
 
                 <input type="submit" class="btn btn-success" value="Envoyer">
             </form>
